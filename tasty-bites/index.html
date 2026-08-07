@@ -22,22 +22,14 @@
     <!-- ===================== HEADER ===================== -->
     <header>
       <nav aria-label="Primary navigation">
-        <!-- Mobile Menu -->
         <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false">
           <i class="fa-solid fa-bars" aria-hidden="true"></i>
         </button>
 
-        <!-- Logo -->
         <a href="#" class="logo">
-          <img
-            src="asset/images/tasty_bite_logo.jpeg"
-            alt="Tasty Bites"
-            width="100"
-            height="100"
-          />
+          <img src="asset/images/tasty_bite_logo.jpeg" alt="Tasty Bites" width="100" height="100" />
         </a>
 
-        <!-- Navigation Links -->
         <ul class="nav-links">
           <li><a href="#home">Home</a></li>
           <li><a href="#menu">Menu</a></li>
@@ -46,12 +38,10 @@
           <li><a href="#contact">Contact Us</a></li>
         </ul>
 
-        <!-- Right Side -->
         <div class="nav-actions">
           <button class="cart-btn" type="button" aria-label="View shopping cart">
             <i class="fa-solid fa-cart-shopping" aria-hidden="true"></i>
           </button>
-
           <a href="tel:+2348105506855" class="phone">
             <i class="fa-solid fa-phone" aria-hidden="true"></i>
             <span>+234 810 550 6855</span>
@@ -64,20 +54,12 @@
       <!-- ===================== HERO ===================== -->
       <section class="hero" id="home" aria-labelledby="hero-heading">
         <div class="hero-content">
+          <h1 id="hero-heading">Enjoy The Real Fresh Food<br />From Our Cuisines</h1>
           <p class="hero-subtitle">Welcome to Tasty Bites</p>
-
-          <h1 id="hero-heading">
-            Enjoy The Real Fresh Food
-            <br />
-            From Our Cuisines
-          </h1>
-
           <p class="hero-description">
             There are many varieties of food available, be it Indian, Chinese,
-            Nigerian or Turkish. Our goal is to ensure you have a good time
-            with us.
+            Nigerian or Turkish. Our goal is to ensure you have a good time with us.
           </p>
-
           <div class="hero-cta">
             <hr />
             <a href="#menu" class="btn">See Menu</a>
@@ -93,8 +75,10 @@
         </div>
 
         <div class="about-content">
-          <p class="section-subtitle">About Us</p>
-          <h2 id="about-heading">We Make The Best Food Restaurant</h2>
+          <div class="about-heading-block">
+            <h2 id="about-heading">We Make The Best Food Restaurant</h2>
+            <p class="section-subtitle about-subtitle">About Us</p>
+          </div>
 
           <p>
             There are many variations of passages of Lorem Ipsum available,
@@ -124,8 +108,10 @@
 
       <!-- ===================== DISHES ===================== -->
       <section class="dishes" id="menu" aria-labelledby="dishes-heading">
-        <p class="section-subtitle">Best Deal We Offer</p>
-        <h2 id="dishes-heading">Our Popular Dishes</h2>
+        <div class="section-heading">
+          <h2 id="dishes-heading">Our Popular Dishes</h2>
+          <p class="section-subtitle">Best Deal We Offer</p>
+        </div>
 
         <ul class="dish-container">
           <li class="dish-card">
@@ -139,7 +125,6 @@
               </figcaption>
             </figure>
           </li>
-
           <li class="dish-card">
             <figure>
               <img src="asset/images/Ellipse 2-1.png" alt="Pasta Alfredo" />
@@ -151,7 +136,6 @@
               </figcaption>
             </figure>
           </li>
-
           <li class="dish-card">
             <figure>
               <img src="asset/images/Ellipse 2-2.png" alt="Pasta Alfredo" />
@@ -163,7 +147,6 @@
               </figcaption>
             </figure>
           </li>
-
           <li class="dish-card">
             <figure>
               <img src="asset/images/Ellipse 2-3.png" alt="Pasta Alfredo" />
@@ -180,11 +163,14 @@
 
       <!-- ===================== TESTIMONIALS ===================== -->
       <section class="testimonials" aria-labelledby="testimonials-heading">
-        <p class="section-subtitle">Testimonials</p>
-        <h2 id="testimonials-heading">What Clients Say About Us</h2>
+        <div class="section-heading">
+          <h2 id="testimonials-heading">What Clients Say About Us</h2>
+          <p class="section-subtitle">Testimonials</p>
+        </div>
 
         <ul class="testimonial-container">
           <li class="testimonial">
+            <img class="testimonial-avatar" src="asset/images/customer-1.jpg" alt="LinkedIn" width="60" height="60" />
             <blockquote>
               <p class="testimonial-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -193,14 +179,13 @@
                 possimus, qui in rem, numquam cupiditate fugit?
               </p>
               <footer>
-                <img src="asset/images/customer-1.png" alt="" width="48" height="48" />
                 <p class="customer-name">John Doe</p>
                 <p class="customer-role">CEO</p>
               </footer>
             </blockquote>
           </li>
-
           <li class="testimonial">
+            <img class="testimonial-avatar" src="asset/images/customer-2.jpg" alt="Ali Morshedlou" width="60" height="60" />
             <blockquote>
               <p class="testimonial-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -209,14 +194,13 @@
                 possimus, qui in rem, numquam cupiditate fugit?
               </p>
               <footer>
-                <img src="asset/images/customer-2.png" alt="" width="48" height="48" />
                 <p class="customer-name">John Doe</p>
                 <p class="customer-role">CEO</p>
               </footer>
             </blockquote>
           </li>
-
           <li class="testimonial">
+            <img class="testimonial-avatar" src="asset/images/customer-3.jpg" alt="Adetola Afolabi" width="60" height="60" />
             <blockquote>
               <p class="testimonial-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -225,7 +209,6 @@
                 possimus, qui in rem, numquam cupiditate fugit?
               </p>
               <footer>
-                <img src="asset/images/customer-3.png" alt="" width="48" height="48" />
                 <p class="customer-name">John Doe</p>
                 <p class="customer-role">CEO</p>
               </footer>
@@ -236,8 +219,10 @@
 
       <!-- ===================== GALLERY ===================== -->
       <section class="gallery" id="gallery" aria-labelledby="gallery-heading">
-        <p class="section-subtitle">Corporate Applications</p>
-        <h2 id="gallery-heading">Our Food Gallery</h2>
+        <div class="section-heading">
+          <h2 id="gallery-heading">Our Food Gallery</h2>
+          <p class="section-subtitle">Corporate Applications</p>
+        </div>
 
         <ul class="gallery-images">
           <li><img src="asset/images/Rectangle 11.png" alt="Plated dish from Tasty Bites gallery" /></li>
@@ -253,60 +238,45 @@
 
       <!-- ===================== ARTICLES ===================== -->
       <section class="articles" id="blog" aria-labelledby="articles-heading">
-        <p class="section-subtitle">Recent Article</p>
-        <h2 id="articles-heading">Latest News <em>&amp;</em> Blog</h2>
+        <div class="section-heading">
+          <h2 id="articles-heading">Latest News <em>&amp;</em> Blog</h2>
+          <p class="section-subtitle">Recent Article</p>
+        </div>
 
         <ul class="article-container">
           <li class="article-card">
             <article>
               <img src="asset/images/Rectangle 16.png" alt="Eggplant dish preparation" />
-
               <div class="article-meta">
                 <span><i class="fa-regular fa-calendar" aria-hidden="true"></i> <time datetime="2023-05-26">May 26, 2023</time></span>
                 <span><i class="fa-regular fa-comment" aria-hidden="true"></i> Comments</span>
               </div>
-
               <h3>Make the eggplant dish at Daniyal restaurant</h3>
-              <p>
-                Phasellus vel risus consequat, volutpat ligula elementum,
-                sagittis purus.
-              </p>
+              <p>Phasellus vel risus consequat, volutpat ligula elementum, sagittis purus.</p>
               <a href="#">Read More →</a>
             </article>
           </li>
-
           <li class="article-card">
             <article>
               <img src="asset/images/Rectangle 16-1.png" alt="Eggplant dish preparation" />
-
               <div class="article-meta">
                 <span><i class="fa-regular fa-calendar" aria-hidden="true"></i> <time datetime="2023-05-26">May 26, 2023</time></span>
                 <span><i class="fa-regular fa-comment" aria-hidden="true"></i> Comments</span>
               </div>
-
               <h3>Make the eggplant dish at Daniyal restaurant</h3>
-              <p>
-                Phasellus vel risus consequat, volutpat ligula elementum,
-                sagittis purus.
-              </p>
+              <p>Phasellus vel risus consequat, volutpat ligula elementum, sagittis purus.</p>
               <a href="#">Read More →</a>
             </article>
           </li>
-
           <li class="article-card">
             <article>
               <img src="asset/images/Rectangle 16-2.png" alt="Eggplant dish preparation" />
-
               <div class="article-meta">
                 <span><i class="fa-regular fa-calendar" aria-hidden="true"></i> <time datetime="2023-05-26">May 26, 2023</time></span>
                 <span><i class="fa-regular fa-comment" aria-hidden="true"></i> Comments</span>
               </div>
-
               <h3>Make the eggplant dish at Daniyal restaurant</h3>
-              <p>
-                Phasellus vel risus consequat, volutpat ligula elementum,
-                sagittis purus.
-              </p>
+              <p>Phasellus vel risus consequat, volutpat ligula elementum, sagittis purus.</p>
               <a href="#">Read More →</a>
             </article>
           </li>
@@ -318,18 +288,8 @@
     <footer id="contact">
       <div class="footer-container">
         <div class="footer-about">
-          <img
-            src="asset/images/tasty_bite_logo.jpeg"
-            alt="Tasty Bites"
-            width="100"
-            height="100"
-          />
-
-          <p>
-            There are many variations of Lorem Ipsum available, but the
-            majority have suffered alteration in some form.
-          </p>
-
+          <img src="asset/images/tasty_bite_logo.jpeg" alt="Tasty Bites" width="100" height="100" />
+          <p>There are many variations of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
           <ul class="social-icons">
             <li><a href="#" aria-label="Tasty Bites on Facebook"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a></li>
             <li><a href="#" aria-label="Tasty Bites on Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a></li>
